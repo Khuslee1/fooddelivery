@@ -7,14 +7,18 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "commonjs",
-    "target": "esnext",
+    // "module": "commonjs",
+    // "target": "esnext",
+      "target": "es2017",
     "types": ["node"],
     // "lib": ["es6"],
     // For nodejs:
     "lib": ["esnext"],
     // "types": ["node"],
     // and npm install -D @types/node
+
+       "module": "esnext", // Or "nodenext", "es2022", "system"
+    "moduleResolution": "node",
 
     // Other Outputs
     "sourceMap": true,
